@@ -1,0 +1,56 @@
+@media (max-device-width: 768px){
+	/*.link-1{
+		position: absolute;
+		right: 50px;
+	}
+	.link-2{
+		left: 150px;
+	}
+	.link-3{
+		left: 180px;
+	}*/
+	#phone-main	{
+		left: 0;
+		width: 35%;
+		top:150px;
+	}
+	#superRobot{
+		left: 140px;
+		height: 375px;		
+	}
+	.text-1 h2{
+		padding-top: 30px;
+		font-size: 54px;
+	}
+	.text-1 p{
+		font-size: 14px;
+	}
+	.text-1{
+		width: 374px;
+	}
+	.download{
+		padding-top: 180px;	
+	}
+	.android, .apple{
+		padding-top: 25px;
+	}
+	#robot{
+		width: 150px;
+		top: 280px;
+		left: 350px;
+	}
+}
+@media (max-device-width: 1024px){
+	.link-1{
+		left: 980px;
+	}
+	.link-2{
+		left: 980px;
+	}
+	.link-3{
+		left: 980px;
+	}
+	#robot{
+		right: 270px;	
+	}
+}

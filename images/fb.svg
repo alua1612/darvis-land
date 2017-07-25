@@ -1,0 +1,12 @@
+<svg width="9" height="20" viewBox="0 0 9 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Fill 3</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2038 -403)">
+<g id="Fill 3">
+<use xlink:href="#path0_fill" transform="translate(2038 403)" fill="#FFFFFF"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 8.64886 10.0064L 5.9357 10.0064L 5.9357 20L 1.91299 20L 1.91299 10.0064L 0 10.0064L 0 6.4761L 1.91299 6.4761L 1.91299 4.19178C 1.91299 2.55815 2.66422 0 5.97133 0L 8.95058 0.0132496L 8.95058 3.43949L 6.78861 3.43949C 6.43414 3.43949 5.9357 3.62302 5.9357 4.40181L 5.9357 6.47954L 9 6.47954L 8.64886 10.0064Z"/>
+</defs>
+</svg>
