@@ -16,9 +16,10 @@
 </head>
 <body>
 	<div class="fixed-social-links">
-		<div class="link-1"><img src="images/fb.svg"></div>
-		<div class="link-2"><img src="images/ig.svg"></div>
-		<div class="link-3"><img src="images/vk.svg"></div>
+		<a href="https://facebook.com/darvis.kz"><div class="links link-1"><img src="images/fb.svg"></div></a>
+		<a href="https://vk.com/darviskz"><div class="links link-3"><img src="images/vk.svg"></div></a>
+		<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru"><div class="links link-4"><i class="fa fa-android fa-lg fixed-icons" aria-hidden="true"></i></div></a>
+		<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8"><div class="links link-5"><i class="fa fa-apple fa-lg fixed-icons" aria-hidden="true"></i></div></a>
 	</div>
 	<div class="block-1">
 		<img id="rectangle" src="images/rectangle.png" alt="rectangle">
@@ -42,23 +43,23 @@
 				<p class="grey-text">Мы постоянно добавляем новые функции и возможности. Следите за обновлениями!</p>
 				<div class="download">
 					<h2>Скачивайте приложение на смартфон</h2>
-					<div class="android">
+					<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru"><div class="android">
 						<i class="fa fa-android fa-2x icons" aria-hidden="true"></i>
 						<p>DAR Vis для Android</p>				
-					</div>
-					<div class="apple">
+					</div></a>
+					<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8"><div class="apple">
 						<i class="fa fa-apple fa-2x icons" aria-hidden="true"></i>
 						<p>DAR Vis для iOS</p>
-					</div>
+					</div></a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<img src="images/rectangle-line.png" width="100%">
-		<div class="container">
-			<div class="carousel">
-			  <div class="carousel-cell">
-			  	<div class="slides">
+	<div class="container">
+		<div class="carousel">
+			<div class="carousel-cell">
+				<div class="slides">
 			  		<div class="text-carousel">
 			  			<img src="images/path2.png" height="60px">
 			  			<p>Денежные переводы без границ</p>
@@ -139,26 +140,29 @@
 						<div class="form-group row">
 						  <label for="example-text-input" class="col-2 col-form-label">Имя*</label>
 						  <div class="col-10">
-						    <input class="form-control" type="text" id="name">
+						    <input class="form-control" required="true" type="text" id="name" size="64" >
 						  </div>
 						 </div>
 						 <div class="form-group row">
 						  <label for="example-text-input" class="col-2 col-form-label">E-mail*</label>
 							  <div class="col-10">
-							    <input class="form-control" type="text" id="email">
+							    <input class="form-control" required="true" type="email" id="email" name="email" >
 							  </div>
 						  </div>
 						  <div class="form-group row">
 							  <label for="example-text-input" class="col-2 col-form-label">Телефон</label>
 							  <div class="col-10">
-							    <input class="form-control" type="text" id="phone">
+							    <input class="form-control" type="tel" id="phone" minlength="11" maxlength="12" 
+							    pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
+							    oninvalid="this.setCustomValidity('Введите номер телефона в формате 8хххххххххх или +7хххххххххх')"
+    							oninput="setCustomValidity('')" >
 							  </div>
 						  </div>
 						  <br>
 						 <div class="form-group row">
 							  <label for="example-text-input" class="col-2 col-form-label">Сообщение*</label>
 							  <div class="col-10">
-							    <input class="form-control" type="text" id="content">
+							    <input class="form-control" required="true" type="text" id="content" >
 							  </div>
 						</div>
 						<button type="submit" class="btn btn-secondary sendbtn">Отправить</button>
@@ -170,36 +174,37 @@
 		<div class="footer">
 			<br>
 			<br>
-			<div class="row footer-row">
-				<div class="col-md-2">
-					<p class="footer-year">2017 © DAR Vis</p>	
-				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-2 footer-address">
-					<p>ул. Тажибаевой 155, Алматы, Казахстан</p>
-					<p>Call-центр 2727</p>
-				</div>
-				<div class="col-md-2">
-					<div class="footer-address">
-						<p>DAR Vis для</p>
-						<div class="android">
-							<img class="icons" src="images/android-logo.svg"> 
-							<p>Android</p>						
-						</div>
-						<div class="apple">
-							<img class="icons" src="images/apple-logo.svg">
-							<p>iOS</p>
+			<div class="container-fluid">
+				<div class="row footer-row">
+					<div class="col-md-2">
+						<p class="footer-year">2017 © DAR Vis</p>	
+					</div>
+					<div class="col-md-2"></div>
+					<div class="col-md-2 footer-address">
+						<p>ул. Тажибаевой 155, Алматы, Казахстан</p>
+						<p>Call-центр 2727</p>
+					</div>
+					<div class="col-md-2">
+						<div class="footer-address">
+							<p>DAR Vis для</p>
+							<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru"><div class="android">
+								<img class="icons" src="images/android-logo.svg"> 
+								<p>Android</p>						
+							</div></a>
+							<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8"><div class="apple">
+								<img class="icons" src="images/apple-logo.svg">
+								<p>iOS</p>
+							</div></a>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-2 ">
-					<div class="footer-year">
-						<i class="fa fa-facebook fa-lg icon-social" aria-hidden="true"></i>
-						<i class="fa fa-instagram fa-lg icon-social" aria-hidden="true"></i>
-						<i class="fa fa-vk fa-lg icon-social" aria-hidden="true"></i>
+					<div class="col-md-2 ">
+						<div class="footer-year">
+							<a href="https://facebook.com/darvis.kz"><i class="fa fa-facebook fa-lg icon-social" aria-hidden="true"></i></a>
+							<a href="https://vk.com/darviskz"><i class="fa fa-vk fa-lg icon-social" aria-hidden="true"></i></a>
+						</div>
 					</div>
+					<div class="col-md-2"></div>
 				</div>
-				<div class="col-md-2"></div>
 			</div>
 		</div>
 </body>

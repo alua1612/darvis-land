@@ -1,14 +1,4 @@
 @media (max-device-width: 768px){
-	/*.link-1{
-		position: absolute;
-		right: 50px;
-	}
-	.link-2{
-		left: 150px;
-	}
-	.link-3{
-		left: 180px;
-	}*/
 	#phone-main	{
 		left: 0;
 		width: 35%;
@@ -39,18 +29,22 @@
 		top: 280px;
 		left: 350px;
 	}
+	.footer-address .android , .footer-address .apple {
+		margin-top: 0;
+		padding-top: 0;
+	}
 }
 @media (max-device-width: 1024px){
-	.link-1{
-		left: 980px;
-	}
-	.link-2{
-		left: 980px;
-	}
-	.link-3{
+	.link-1, .link-2, .link-3, .link-4, .link-5{
 		left: 980px;
 	}
 	#robot{
 		right: 270px;	
+	}
+	.footer-address .android p, .footer-address .apple p{
+		font-size: 10px;
+	}
+	.footer-address .android img, .footer-address .apple img{
+		width: 21%;
 	}
 }

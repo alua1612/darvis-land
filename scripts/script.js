@@ -3,7 +3,8 @@ $(document).ready( function() {
 	  // options
 	  cellAlign: 'left',
 	  contain: true,
-	  freeScroll: true
+	  freeScroll: true,
+	  autoPlay: true
 	});
 
 	var obj1 = {};
