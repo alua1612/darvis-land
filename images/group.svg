@@ -1,19 +1,19 @@
-<svg width="33" height="24" viewBox="0 0 33 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="33" height="24"  viewBox="0 0 33 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>Group</title>
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(-1352 -1467)">
 <g id="Group">
 <g id="Shape">
-<use xlink:href="#path0_fill" transform="translate(1352.03 1467.43)" fill="#B3B9BD"/>
+<use xlink:href="#path0_fill" transform="translate(1352.03 1467.43)" fill="#5AB3F0"/>
 </g>
 <g id="Oval">
-<use xlink:href="#path1_fill" transform="translate(1357.91 1474.18)" fill="#B3B9BD"/>
+<use xlink:href="#path1_fill" transform="translate(1357.91 1474.18)" fill="#5AB3F0"/>
 </g>
 <g id="Oval">
-<use xlink:href="#path1_fill" transform="translate(1363.41 1474.18)" fill="#B3B9BD"/>
+<use xlink:href="#path1_fill" transform="translate(1363.41 1474.18)" fill="#5AB3F0"/>
 </g>
 <g id="Oval">
-<use xlink:href="#path1_fill" transform="translate(1368.91 1474.18)" fill="#B3B9BD"/>
+<use xlink:href="#path1_fill" transform="translate(1368.91 1474.18)" fill="#5AB3F0"/>
 </g>
 </g>
 </g>

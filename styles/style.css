@@ -9,7 +9,7 @@ body{
 	background: radial-gradient(1588.94px at 79.18% 5.3%, #8CCAF8 0%, #54A5E1 100%);
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);	
 }
-#logo{
+.logo{
 	width: 121px;
 	height: 26px;
 	margin-top: 34px;
@@ -18,12 +18,12 @@ body{
 	position: absolute;
 	top: -55px;
 }
-#phone-main{
+.phone-main{
 	width: 295.53px;
 	position: absolute;
 	top: 105.39px;
 }
-#superRobot{
+.superRobot{
 	position: absolute;
 	top: 290px;
 	left: 275px;
@@ -75,7 +75,8 @@ body{
 	margin-top: 15px;
 	margin-right: 50px;
 }
-.block-2 h2{
+.block-2 h2
+{
 	line-height: normal;
 	font-size: 26px;
 	color: #485A66;
@@ -122,11 +123,6 @@ body{
   background: #FFF;
   border-radius: 5px;
 }
-.text-carousel{
-	width: 330px;
-	float: left;
-	margin-top: 65px;
-}
 .img-carousel{
 	width: 40%;
 	float: right;
@@ -148,6 +144,9 @@ body{
 	padding-right: 15px;
 }
 .text-carousel {
+	width: 330px;
+	float: left;
+	margin-top: 65px;
 	color: #303C45;
 	font-size: 26px;
 }
@@ -261,6 +260,10 @@ li img{
 	color: white;
 	padding-right: 15px;
 }
+.icons-svg{
+	position: absolute;
+	visibility: hidden;
+}
 .footer p{
 	line-height: 15px;
 	font-size: 14px;
@@ -310,4 +313,8 @@ li img{
 }
 .footer-row{
 	width: 100%;
+}
+.col-form-label{
+	// padding-right: 8px;
+	text-align: right;
 }

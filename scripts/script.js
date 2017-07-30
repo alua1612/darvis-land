@@ -4,7 +4,7 @@ $(document).ready( function() {
 	  cellAlign: 'left',
 	  contain: true,
 	  freeScroll: true,
-	  autoPlay: true
+	  autoPlay: 10000
 	});
 
 	var obj1 = {};
@@ -36,6 +36,8 @@ $(document).ready( function() {
 		$(this).append('<img src=" ' + icons[index].img + '">');
 	});	
 
+
+
 	var http = new XMLHttpRequest();
 	var url = "get_data.php";
 	var params = "lorem=ipsum&name=binny";
@@ -50,4 +52,11 @@ $(document).ready( function() {
 	    }
 	}
 	http.send(params);
+	
+	$(window).scroll(function (event) {
+	    var scrolltop = $(window).scrollTop();
+		if (scrolltop == 535){
+			$(".fixed-social-links").addClass('fixed-social-links-hide');
+		}
+	});
 });

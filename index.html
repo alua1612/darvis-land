@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>DAR Vis</title>
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="scripts/jquery-3.2.1.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -25,9 +26,9 @@
 		<img id="rectangle" src="images/rectangle.png" alt="rectangle">
 		<img id="oval" src="images/Oval.png">
 		<div class="container">
-			<img id="logo" src="images/DARVislogo.png">
-			<img id="phone-main" src="images/phone.png">
-			<img id="superRobot" src="images/SuperRobot.gif">
+			<img class="logo" src="images/DARVislogo.png">
+			<img class="phone-main" src="images/phone.png">
+			<img class="superRobot" src="images/SuperRobot.gif">
 			<div class="text-1">
 				<h2>Возможности без границ</h2>
 				<img src="images/rectangle-mini.png">
@@ -43,25 +44,30 @@
 				<p class="grey-text">Мы постоянно добавляем новые функции и возможности. Следите за обновлениями!</p>
 				<div class="download">
 					<h2>Скачивайте приложение на смартфон</h2>
-					<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru"><div class="android">
-						<i class="fa fa-android fa-2x icons" aria-hidden="true"></i>
-						<p>DAR Vis для Android</p>				
-					</div></a>
-					<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8"><div class="apple">
-						<i class="fa fa-apple fa-2x icons" aria-hidden="true"></i>
-						<p>DAR Vis для iOS</p>
-					</div></a>
+					<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru">
+						<div class="android">
+							<i class="fa fa-android fa-2x icons" aria-hidden="true"></i>
+							<p>DAR Vis для Android</p>				
+						</div>
+					</a>
+					<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8">
+						<div class="apple">
+							<i class="fa fa-apple fa-2x icons" aria-hidden="true"></i>
+							<p>DAR Vis для iOS</p>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<img src="images/rectangle-line.png" width="100%">
+	<img src="images/rectangle-line.png" width="100%" height="3px">
 	<div class="container">
 		<div class="carousel">
 			<div class="carousel-cell">
 				<div class="slides">
 			  		<div class="text-carousel">
 			  			<img src="images/path2.png" height="60px">
+			  			<img class="icons-svg" src="images/group4.svg">
 			  			<p>Денежные переводы без границ</p>
 			  			<p class="slide1-text">Надо перевести маме денег?<br>
 						Необходимо срочно заплатить подрядчику из другого города?<br>
@@ -77,6 +83,7 @@
 			  	<div class="slides">
 			  		<div class="text-carousel">
 			  			<img src="images/path2.png" height="60px">
+			  			<img class="icons-svg" src="images/shape.svg">
 			  			<p>Безопасность операций как в банке</p>
 			  			<p class="slide1-text">Ваши финансовые данные надёжно защищены самой современной системой шифрования, системой распределённых сервисов и пин-кодом, который знаете только вы</p>
 			  		</div>
@@ -88,7 +95,8 @@
 			  <div class="carousel-cell">
 			  	<div class="slides">
 			  		<div class="text-carousel">
-			  			<img src="images/path2.png" height="60px">	
+			  			<img src="images/path2.png" height="60px">
+			  			<img class="icons-svg" src="images/group.svg">	
 			  			<p class="curly-line-center">Общение без границ</p><br>
 			  			<p class="slide1-text">Общайтесь с друзьями, переписывайтесь по делу и просто так. Мгновенный обмен сообщениями, пересылка файлов, фотографий и многое другое</p>
 			  		</div>
@@ -101,6 +109,7 @@
 			  	<div class="slides">
 			  		<div class="text-carousel">
 			  			<img src="images/path2.png" height="60px">
+			  			<img class="icons-svg" src="images/shape1.svg">
 			  			<p class="curly-line-center">Кнопки - в прошлом</p><br>
 			  			<p class="slide1-text">Теперь ситуации, когда вы не могли найти нужную кнопку – позади. Любые операции, все нужные функции теперь проводятся обычным человеческим языком через бота. Будто вы разговариваете с личным помощником, который понимает вас с полуслова</p>
 			  		</div>
@@ -113,11 +122,12 @@
 			  	<div class="slides">
 			  		<div class="text-carousel">
 			  			<img src="images/path2.png" height="60px">
+			  			<img class="icons-svg" src="images/group1.svg">
 			  			<p>DAR Vis - лучший помощник</p><br>
-			  			<p class="slide1-text">Теперь ситуации, когда вы не могли найти нужную кнопку – позади. Любые операции, все нужные функции теперь проводятся обычным человеческим языком через бота. Будто вы разговариваете с личным помощником, который понимает вас с полуслова</p>
+			  			<p class="slide1-text">Он подскажет погоду на завтра,найдёт куда лучше сходить в выходные,переведёт любой текст и многое-многое другое. С каждым днём DAR Vis становится всё умнее и полезнее для каждого пользователя</p>
 			  		</div>
 			  		<div class="img-carousel">
-			  			<img class="slide-img" src="images/page5.png" width="436px">			  			
+			  			<img class="slide-img img-5" src="images/page5.png" width="436px">			  			
 			  		</div>
 			  	</div>
 			  </div>
@@ -128,30 +138,30 @@
 			<img id="curlyPath" src="images/curly.png">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-xs-12">
 						<h2 class="footer-text">Мы всегда на связи</h2><br>
 						<p>У Вас возник вопрос? Появился комментарий? Может в глубине Вашей души спит критик?</p><br>
 						<p>Оставьте нам сообщение.</p>
 						<p>Ответ последует обязательно	</p>
 					</div>
 					<div class="col-md-2"></div>
-					<div class="col-md-6 forms">
+					<div class="col-md-6 forms col-xs-12">
 						<form>
 						<div class="form-group row">
-						  <label for="example-text-input" class="col-2 col-form-label">Имя*</label>
-						  <div class="col-10">
+						  <label for="example-text-input" class="col-md-2 col-form-label col-xs-12">Имя*</label>
+						  <div class="col-md-10 col-xs-12">
 						    <input class="form-control" required="true" type="text" id="name" size="64" >
 						  </div>
 						 </div>
 						 <div class="form-group row">
-						  <label for="example-text-input" class="col-2 col-form-label">E-mail*</label>
-							  <div class="col-10">
+						  <label for="example-text-input" class="col-md-2 col-form-label col-xs-12">E-mail*</label>
+							  <div class="col-md-10 col-xs-12">
 							    <input class="form-control" required="true" type="email" id="email" name="email" >
 							  </div>
 						  </div>
 						  <div class="form-group row">
-							  <label for="example-text-input" class="col-2 col-form-label">Телефон</label>
-							  <div class="col-10">
+							  <label for="example-text-input" class="col-md-2 col-form-label col-xs-12">Телефон</label>
+							  <div class="col-md-10 col-xs-12">
 							    <input class="form-control" type="tel" id="phone" minlength="11" maxlength="12" 
 							    pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
 							    oninvalid="this.setCustomValidity('Введите номер телефона в формате 8хххххххххх или +7хххххххххх')"
@@ -160,8 +170,8 @@
 						  </div>
 						  <br>
 						 <div class="form-group row">
-							  <label for="example-text-input" class="col-2 col-form-label">Сообщение*</label>
-							  <div class="col-10">
+							  <label for="example-text-input" class="col-md-2 col-form-label col-xs-12">Сообщение*</label>
+							  <div class="col-md-10 col-xs-12">
 							    <input class="form-control" required="true" type="text" id="content" >
 							  </div>
 						</div>
@@ -176,15 +186,19 @@
 			<br>
 			<div class="container-fluid">
 				<div class="row footer-row">
-					<div class="col-md-2">
-						<p class="footer-year">2017 © DAR Vis</p>	
+					<div class="col-md-2 col-xs-12">
+					<div class="footer-year">
+							<a href="https://facebook.com/darvis.kz"><i class="fa fa-facebook fa-lg icon-social" aria-hidden="true"></i></a>
+							<a href="https://vk.com/darviskz"><i class="fa fa-vk fa-lg icon-social" aria-hidden="true"></i></a>
+						</div>
+						
 					</div>
 					<div class="col-md-2"></div>
-					<div class="col-md-2 footer-address">
+					<div class="col-md-2 footer-address col-xs-12">
 						<p>ул. Тажибаевой 155, Алматы, Казахстан</p>
-						<p>Call-центр 2727</p>
+						<p>Call-центр  2727</p>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-xs-12">
 						<div class="footer-address">
 							<p>DAR Vis для</p>
 							<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru"><div class="android">
@@ -197,11 +211,8 @@
 							</div></a>
 						</div>
 					</div>
-					<div class="col-md-2 ">
-						<div class="footer-year">
-							<a href="https://facebook.com/darvis.kz"><i class="fa fa-facebook fa-lg icon-social" aria-hidden="true"></i></a>
-							<a href="https://vk.com/darviskz"><i class="fa fa-vk fa-lg icon-social" aria-hidden="true"></i></a>
-						</div>
+					<div class="col-md-2 col-xs-12">
+						<p class="footer-year">2017 © DAR Vis</p>	
 					</div>
 					<div class="col-md-2"></div>
 				</div>
