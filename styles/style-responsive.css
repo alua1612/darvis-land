@@ -66,8 +66,10 @@
 	.link-5{ top: 140px; }
 	.fixed-social-links-hide{ visibility: hidden; }
 	.footer-icons{ margin-top: -40px; }
+	.img-5{width: 85%; left: 10px; }
 }
 @media(min-width: 358px) and (max-width: 426px){
 	.link-1, .link-3, .link-4, .link-5{ left: 338px; }
 	.slide-img{ left: 25%; }
+	.img-5{width: 80%; left: 20px; }
 }

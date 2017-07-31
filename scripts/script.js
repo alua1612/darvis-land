@@ -36,10 +36,41 @@ $(document).ready( function() {
 		$(this).append('<img src=" ' + icons[index].img + '">');
 	});	
 	
-	$(window).scroll(function (event) {
-	    var scrolltop = $(window).scrollTop();
-		if (scrolltop > 700){
-			$(".fixed-social-links").addClass('fixed-social-links-hide');
+	$(window).scroll(function(){
+		var scrolltop = $(window).scrollTop();
+		var windowWidth = $(window).width();
+		if (scrolltop > 700 && windowWidth < 426){	
+			$(".fixed-social-links").fadeOut("slow");	
 		}
+		else{
+			$(".fixed-social-links").fadeIn("slow");		
+		}
+	});
+
+	$(".sendbtn").click(function(){
+		event.preventDefault();	
+		var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var text = document.getElementById("content").value;
+
+        $.ajax({
+            type: "POST",
+            url: 'mail.php',
+            dataType: "json",
+            data: "name="+name+"&text="+text+"&email="+email+"&phone="+phone
+        }).always(function() {
+               	document.getElementById("name").value = "";
+                document.getElementById("email").value = "";
+                document.getElementById("phone").value = "";
+                document.getElementById("content").value = "";
+           });
+
+        $("h5").css("visibility", "visible");
+
+        function hide(){
+        	$("h5").css("visibility", "hidden").fadeOut("slow");
+        }
+		setTimeout(hide,3000);
 	});
 });
