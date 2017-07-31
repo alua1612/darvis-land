@@ -35,27 +35,10 @@ $(document).ready( function() {
 		$(this).addClass('li-text');
 		$(this).append('<img src=" ' + icons[index].img + '">');
 	});	
-
-
-
-	var http = new XMLHttpRequest();
-	var url = "get_data.php";
-	var params = "lorem=ipsum&name=binny";
-	http.open("POST", url, true);
-
-	//Send the proper header information along with the request
-	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-	http.onreadystatechange = function() {//Call a function when the state changes.
-	    if(http.readyState == 4 && http.status == 200) {
-	        alert(http.responseText);
-	    }
-	}
-	http.send(params);
 	
 	$(window).scroll(function (event) {
 	    var scrolltop = $(window).scrollTop();
-		if (scrolltop == 535){
+		if (scrolltop > 700){
 			$(".fixed-social-links").addClass('fixed-social-links-hide');
 		}
 	});
