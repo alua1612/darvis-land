@@ -47,6 +47,9 @@ $(document).ready( function() {
 		}
 	});
 
+
+
+	/// MAILER
 	$(".sendbtn").click(function(){
 		event.preventDefault();	
 		var name = document.getElementById("name").value;

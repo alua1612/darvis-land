@@ -73,3 +73,6 @@
 	.slide-img{ left: 25%; }
 	.img-5{width: 80%; left: 20px; }
 }
+@media (min-width: 1200px) and (max-width: 1500px){
+	.link-1, .link-3, .link-4, .link-5{ left: 1300px; }
+}
