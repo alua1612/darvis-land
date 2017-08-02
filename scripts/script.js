@@ -49,7 +49,7 @@ $(document).ready( function() {
 
 	/// MAILER
 
-	$("input").tooltip('destroy'); 
+	$("input").tooltip('disable'); 
 
 	$("form").submit(function(event){
 		event.preventDefault();	
