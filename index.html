@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<title>DAR Vis</title>
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
@@ -151,13 +151,13 @@
 						<div class="form-group row">
 						  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12">Имя*</label>
 						  <div class="col-md-9	 col-xs-12">
-						    <input class="form-control" required="true" type="text" id="name" size="64" >
+						    <input class="form-control" type="text" id="name" size="64" required />
 						  </div>
 						 </div>
 						 <div class="form-group row">
 						  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12">E-mail*</label>
 							  <div class="col-md-9 col-xs-12">
-							    <input class="form-control" required="true" type="email" id="email" name="email" >
+							    <input class="form-control" type="email" id="email" name="email" required />
 							  </div>
 						  </div>
 						  <div class="form-group row">
@@ -166,14 +166,14 @@
 							    <input class="form-control" type="tel" id="phone" minlength="11" maxlength="12" 
 							    pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
 							    oninvalid="this.setCustomValidity('Введите номер телефона в формате 8хххххххххх или +7хххххххххх')"
-    							oninput="setCustomValidity('')" >
+    							oninput="setCustomValidity('')" />
 							  </div>
 						  </div>
 						  <br>
 						 <div class="form-group row">
 							  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12">Сообщение*</label>
 							  <div class="col-md-9 col-xs-12">
-							    <input class="form-control" required="true" type="text" id="content" >
+							    <input class="form-control" type="text" id="content" required />
 							  </div>
 						</div>
 						<button type="submit" class="btn btn-secondary sendbtn">Отправить</button>

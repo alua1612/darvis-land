@@ -29,7 +29,7 @@
 	.download{ width: 100%; padding-top: 150px; text-align: center; }
 	.download-app{ background: linear-gradient(9.52deg, #FCFCFC -1.34%, #F1F1F1 156.45%); }
 	.block-2 h2{ font-size: 24px; margin: auto; }
-	.android , .apple{ border-right: 0; padding-top: 20px; padding-left: 20px; width: 90%; margin-left: 6%; }
+	.android , .apple{ border-right: 0; padding-top: 20px; padding-left: 25px; width: 90%; margin-left: 7%; }
 	.android{ border-bottom: 2px solid #DFE7EC; padding-bottom: 15px; padding-top: 30px; }
 	.text-carousel img, .flickity-prev-next-button, .flickity-page-dots{ visibility: hidden; position: absolute; }
 	.text-carousel{ width: 100%;font-size: 22px; text-align: center;}
@@ -67,10 +67,12 @@
 	.fixed-social-links-hide{ visibility: hidden; }
 	.footer-icons{ margin-top: -40px; }
 	.img-5{width: 85%; left: 10px; }
+	.send h5{ position: relative; left: 0; font-size: 0.95rem; bottom: 20px; visibility: hidden;}
 }
 @media(min-width: 358px) and (max-width: 426px){
 	.link-1, .link-3, .link-4, .link-5{ left: 338px; }
 	.slide-img{ left: 25%; }
+	.android , .apple{ padding-left: 12%; }
 	.img-5{width: 80%; left: 20px; }
 }
 @media (min-width: 1200px) and (max-width: 1500px){

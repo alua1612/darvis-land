@@ -4,7 +4,7 @@ $(document).ready( function() {
 	  cellAlign: 'left',
 	  contain: true,
 	  freeScroll: true,
-	  autoPlay: 10000
+	  autoPlay: 7000
 	});
 
 	var obj1 = {};
@@ -47,10 +47,11 @@ $(document).ready( function() {
 		}
 	});
 
-
-
 	/// MAILER
-	$(".sendbtn").click(function(){
+
+	$("input").tooltip('destroy'); 
+
+	$("form").submit(function(event){
 		event.preventDefault();	
 		var name = document.getElementById("name").value;
         var email = document.getElementById("email").value;
@@ -76,4 +77,5 @@ $(document).ready( function() {
         }
 		setTimeout(hide,3000);
 	});
+		
 });
