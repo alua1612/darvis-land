@@ -9,7 +9,7 @@
 	#robot{ width: 150px; top: 280px; left: 350px; }
 	.footer-address .android , .footer-address .apple { margin-top: 0; padding-top: 0; }
 }
-@media (max-device-width: 1024px){
+@media (max-width: 1024px){
 	.link-1, .link-2, .link-3, .link-4, .link-5{ left: 980px; }
 	#robot{ right: 270px; }
 	.footer-address .android p, .footer-address .apple p{ font-size: 10px; }
@@ -68,6 +68,7 @@
 	.footer-icons{ margin-top: -40px; }
 	.img-5{width: 85%; left: 10px; }
 	.send h5{ position: relative; left: 0; font-size: 0.95rem; bottom: 20px; visibility: hidden;}
+	
 }
 @media(min-width: 358px) and (max-width: 426px){
 	.link-1, .link-3, .link-4, .link-5{ left: 338px; }
@@ -77,4 +78,17 @@
 }
 @media (min-width: 1200px) and (max-width: 1500px){
 	.link-1, .link-3, .link-4, .link-5{ left: 1300px; }
+}
+@media (min-width: 767px) and (max-width: 1025px){
+	.success-rect{ margin-left: 10px;}
+}
+@media (min-width: 319px) and (max-width: 426px) {
+	.success-text{ font-size: 20px; padding-top: 20px;}
+	.success-rect , .success-circle{display: none;}
+	.success{width: 100%;}
+	.success-curve{margin-left: 16.8%; }
+	.success-darvis_logo{transform: scale(0.5, 0.5);margin-top: -20px;}
+	.success-curve{display: none;}
+	.success-approved{margin: -30px 0 0 0;}
+	.success-logos_dar{padding-top: 50px;}
 }

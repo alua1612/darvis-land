@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <link rel="stylesheet" type="text/css" href="../styles/style-responsive.css">
+        <script src="../scripts/jquery-3.2.1.js"></script>
+    </head>
+    <body>
+        <div class="success">
+            <img class='success-curve' src='../images/curve-line.svg'/>
+            <img class='success-rect' src='../images/rectangle.svg'/>
+            <div class='success-darvis_logo'><img src='../images/darvis-logo.svg'/></div>
+            <div class='success-approved'><img src='../images/approved.svg'/></div>
+            <div class='success-text'>
+                <p>Спасибо!<br/>
+                Ваш e-mail <p id='#info' class='success-email'>oresherk@gmail.com</p> <br/>принят<br/>
+                и подтвержден!
+                </p>
+            </div>
+            <div class='success-logos'>
+                <a href="https://dar.kz/"><img class='success-logos_dar' src='../images/dar-logo.svg'/></a>
+                <a href="http://www.darvis.kz/"><img class='success-logos_darvis' src='../images/darvis-logo-small.svg'/></a>
+            </div>
+            <div class='success-logos-text'>
+                <a href="https://dar.kz/">dar.kz</a>
+                <a href="http://www.darvis.kz/">darvis.kz</a>
+            </div>
+            <img class='success-circle' src='../images/circle.svg'/>
+        </div>
+    </body>
+    <script>
+        $.ajax({
+		url: '',
+		data: {
+		   format: 'json'
+		},
+		error: function() {
+		   console.log('error');
+		},
+		success: function(data) {
+		   $('#info')
+			  .append(data.talks[0].talk_title)
+		},
+		type: 'GET'
+	 });
+    </script>
+</html>

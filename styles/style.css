@@ -316,6 +316,70 @@ li img{
 	width: 100%;
 }
 .col-form-label{
-	// padding-right: 8px;
+	padding-right: 8px;
 	text-align: right;
+}
+.success{
+	width: 100%;
+}
+.success-curve{
+	margin-left: 56.8%;
+}
+.success-rect{
+	display: inline-block;
+	margin-left: 20%;
+	margin-top: 87px;
+}
+.success-darvis_logo{
+  text-align: center;	
+  margin-top: -250px;
+}
+.success-approved{
+	/* position: absolute; */
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.success-text{
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #303030;
+	letter-spacing: -0.23px;
+	padding-top: 5px;
+	text-align: center;
+	line-height: 23px
+}
+.success-text p{
+	display: inline;
+}
+.success-logos{
+	text-align: center;
+}
+.success-logos_darvis{
+	margin-left: 30px;
+	margin-bottom: -6px;
+}
+.success-logos_dar{
+	margin-right: 40px;	
+	padding-top: 80px;
+}
+.success-logos-text{
+	text-align: center;
+	padding-top: 10px;
+}
+.success-logos-text a{
+    margin-right: 30px;
+	margin-left: 60px;
+	text-decoration:none;
+	font-size: 14px;
+	color: #818181;
+	font-family: 'Helvetica';
+}
+.success-circle{
+	position: absolute;
+	top: 50%;
+	left: 62%;
+}
+.success-email{
+	display: inline;
 }
