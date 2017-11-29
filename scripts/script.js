@@ -8,22 +8,22 @@ $(document).ready( function() {
 	});
 
 	var obj1 = {};
-	obj1.image = "http://www.darvis.kz/images/group4.svg";
+	obj1.image = "/images/group4.svg";
 	obj1.title = 'Денежные переводы';
 
 	var obj2 = {};
-	obj2.image = "http://www.darvis.kz/images/shape.svg"
+	obj2.image = "/images/shape.svg"
 	obj2.title = 'Безопасность операций	';
 
 	var obj3 = {};
-	obj3.image = "http://www.darvis.kz/images/group.svg";
+	obj3.image = "/images/group.svg";
 	obj3.title = 'Общение без границ'
 	var obj4 = {};
-	obj4.image = "http://www.darvis.kz/images/shape1.svg";
+	obj4.image = "/images/shape1.svg";
 	obj4.title = 'Кнопки - в прошлом';
 
 	var obj5 = {};
-	obj5.image = "http://www.darvis.kz/images/group1.svg";
+	obj5.image = "/images/group1.svg";
 	obj5.title = 'Лучший помощник';
 
 	var icons = [ obj1, obj2, obj3, obj4, obj5 	];
