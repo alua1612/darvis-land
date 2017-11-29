@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="345px" height="165px" viewBox="0 0 345 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="25.2281527%" y1="203.06969%" x2="-2.83149929%" y2="71.6393644%" id="linearGradient-1">
+            <stop stop-color="#57B2F0" offset="0%"></stop>
+            <stop stop-color="#55B1F0" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.15">
+        <g id="DV-LandingPage-Copy" transform="translate(-1575.000000, -2041.000000)" stroke-width="95.9999943" stroke="url(#linearGradient-1)">
+            <g id="Group-10-Copy" transform="translate(0.000000, 2041.000000)">
+                <g id="Oval">
+                    <ellipse cx="1939" cy="-50.3765281" rx="339" ry="167.427873"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

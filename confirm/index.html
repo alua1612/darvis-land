@@ -47,9 +47,9 @@
             var qparams = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
             console.log(qparams);
             $.ajax({
-            url: 'https://dev-api.dar.kz/profiles/'+getUrlVars().clientid+'/email/'+getUrlVars().token,
+            url: 'https://www.darvis.kz/success?pid=some_value&token=some_value'+getUrlVars().pid+'/email/'+getUrlVars().token,
             type: 'GET',
-            error: function() {
+            error: function() {      
                 console.log('error');
             },
             success: function(data) {

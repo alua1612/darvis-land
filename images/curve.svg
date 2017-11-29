@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="370px" height="104px" viewBox="0 0 370 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="370px" height="125px" viewBox="0 0 370 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>Path 2</title>
     <desc>Created with Sketch.</desc>
@@ -11,8 +11,8 @@
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="DV-LandingPage-Copy" transform="translate(-25.000000, -878.000000)" stroke-width="46.8190787" stroke="url(#linearGradient-1)">
-            <g id="Group-10" transform="translate(0.000000, 780.000000)">
+        <g id="DV-LandingPage-Copy" transform="translate(-25.000000, -2139.000000)" stroke-width="46.8190787" stroke="url(#linearGradient-1)">
+            <g id="Group-10-Copy" transform="translate(0.000000, 2041.000000)">
                 <g id="Oval">
                     <path d="M54.2197865,43.5638353 C90.3210924,71.2524272 172.196874,52.5014809 204.543385,73.4865636 C236.889896,94.4716463 186.192753,122.482763 213.957127,142.666049 C241.7215,162.849334 321.195328,148.035302 353.645868,171.581543 C386.096409,195.127784 322.744491,213.318661 357.588988,237.661635" id="Path-2" transform="translate(208.719786, 140.612735) rotate(153.000000) translate(-208.719786, -140.612735) "></path>
                 </g>

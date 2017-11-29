@@ -1,121 +1,158 @@
 body{ font-family: Roboto; font-style: normal; font-weight: normal; }
 .block-1{
 	width: 100%;
-	height: 585px;
-	background: radial-gradient(1588.94px at 79.18% 5.3%, #8CCAF8 0%, #54A5E1 100%);
-	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);	
+	height: 785px;
+	/* background: radial-gradient(1588.94px at 79.18% 5.3%, #8CCAF8 0%, #54A5E1 100%); */
+	/* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5); */
+	background-image: url('../images/Mask.png');	
+}
+button{
+	
 }
 .logo{
-	width: 121px;
-	height: 26px;
-	margin-top: 34px;
+	width: 194.5px;
+	height: 62.25px;
+	top: 35px;
+	left: -70px;
+	position: absolute;
+	/* left: 317px; */
+	/* margin-top: 34px; */
+}
+.darvis-logo_background{
+	position: absolute;
+	margin-top: 62px;
+	left: 251px;
 }	
 #rectangle{
 	position: absolute;
-	top: -55px;
 }
 .phone-main{
-	width: 295.53px;
 	position: absolute;
-	top: 105.39px;
-}
-.superRobot{
-	position: absolute;
-	top: 290px;
-	left: 275px;
-	height: 455px;
+	top: 128.75px;
+	left: -70px;
+	/* left: 317px; */
 }
 .text-1{
-	width: 474px;
-	margin-top: 105.39px;
+	margin-top: 25.39px;
 	float: right;
 	color: white;
 }
-.text-1 h2{
-	line-height: 65px;
-	font-size: 62px;
-	text-align: right;
-	letter-spacing: -0.137778px;
-	margin-bottom: 2rem;
-}
-.text-1 img{
+.text-1_title{
+	width: 474px;
+	font-size: 37.5px;
+	letter-spacing: -0.11px;
+	margin-bottom: 1rem;
+	font-family: 'Roboto-Black', sans-serif;
+	line-height: 47px;
 	float: right;
-	padding-bottom: 2rem;
 }
-.text-1 p{
+.text-1_text{
+	width: 506px;
 	line-height: normal;
 	font-size: 16px;
 	text-align: right;
 	letter-spacing: -0.1px;
+	font-family: 'Roboto-Regular', sans-serif;
+	margin-right: -80px;
+	margin-bottom: 20px;
 }
-#oval{
+.hashtag{
+	width: 502.5px;
+	color: #22BEFF;
+	margin-right: 35px;
+	margin-top: 50px;
+}
+.hashtag span{
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px 8px; 
+	margin: 0 1px 3px ;
+	float: right; 
+}
+.smoke{
 	position: absolute;
-	top: 251px;
-	right: 0;
+	left: 28%;
+	top: 115px;
+	width: 61%;
+}
+.stickers{
+	position: relative;
+	left: 30.7%;
+	top: 25px;
 }
 .block-2{
-	height: 359.75px;
 	width: 100%;
 }
 .download-app{
 	background: linear-gradient(45.11deg, #FCFCFC 103.55%, #F1F1F1 164.59%);
 	margin-bottom: -10px;
+	height: 202px;
 }
 .grey-text{
 	line-height: 16px;
-	font-size: 12px;
-	text-align: right;
-	color: #A4AFB7;
-	width: 357px;
+	width: 217px;
 	float: right;	
-	margin-top: 15px;
-	margin-right: 50px;
+	margin-top: 45px;
+	margin-right: 20px;
+	font-size: 14px;
+	color: #A4AFB7;
+	letter-spacing: 0;
 }
 .block-2 h2
 {
 	line-height: normal;
 	font-size: 26px;
-	color: #485A66;
+	color: #000000;
 }
 .download{
-	width: 569px;
+	width: 500px;
 	margin: auto;
-	padding-top: 200px;
+	margin-top: -50px;
+	/* padding-top: 200px; */
 }
 .icons{
 	float: left;
+	padding: 5px;
 }
 .android{
 	float: left;
-	display: inline-block;
-	line-height: normal;
 	font-size: 18px;
 	text-align: center;
-	width: 46%;
+	width: 47%;
 	color: #485A66;
-	border-right: 2px solid #DFE7EC;
+	border: 1px solid #c8c8c8;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 .apple{
 	float: right;	
-	display: inline-block;
-	line-height: normal;
 	font-size: 18px;
 	text-align: center;
-	width: 46%;
+	width: 50%;
 	color: #485A66;
+	border: 1px solid #c8c8c8;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 .android p, .apple p{
-	margin-bottom: 0px;
 	float: left;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-left: 8px;
+}
+.about{
+	text-align: center;
+	padding: 50px 0px;
+	font-size: 32px;
+	color: #000000;
+	letter-spacing: 0;
+	font-weight: 400;
 }
 .carousel {
   background: #EEE;
 }
 .carousel-cell {
   width: 100%;
-  height: 582px;
+  height: 782px;
   background: #FFF;
   border-radius: 5px;
 }
@@ -124,7 +161,10 @@ body{ font-family: Roboto; font-style: normal; font-weight: normal; }
 	float: right;
 }
 .slide-img{
-	
+	margin-top: 40px;
+}
+.img-5{
+	margin-left: -150px;
 }
 .slides{
 	width: 80%;
@@ -140,21 +180,28 @@ body{ font-family: Roboto; font-style: normal; font-weight: normal; }
 	padding-right: 15px;
 }
 .text-carousel {
-	width: 330px;
+	width: 340px;
 	float: left;
 	margin-top: 65px;
-	color: #303C45;
-	font-size: 26px;
+	
+}
+.text-carousel h2{
+	font-size: 30px;
+	color: #000000;
+	letter-spacing: 0;
+	line-height: 38.4px;
 }
 .slide1-text{
 	line-height: 18px;
 	font-size: 14px;
 	color: #303C45;
+	width: 391px;
+	margin-top: 30px;
 }
 #robot{
 	position: absolute;
-	width: 190px;
-	top: 225px;
+	width: 243px;
+	top: 375px;
 	right: 440px;
 }
 .curly-line-center{
@@ -164,7 +211,7 @@ li p{
 	line-height: 13px;
 	font-size: 15px;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 70px;
 }
 .flickity-page-dots{
 	top: 0;	
@@ -172,17 +219,25 @@ li p{
 	background-color: white;	
 }
 .container .carousel{
-	margin-top: 80px;
+	margin-top: 20px;
 }
 .flickity-page-dots .dot{
 	width: 130px;
-	height: 3px;
-	border-radius: 0;
-	margin: 0;
+	height: 130px;
+	border-radius: 100px;
+	border: 1px solid #D7D7D7;
+	margin-left: 0;
+	margin-top: -30px;
+	margin-right: 15px;
 	position: relative;
+	background-color: transparent;
+	opacity: 1;
+	font-size: 13px;
+	color: #727272;
+	letter-spacing: 0;
+	line-height: 14px;
 }
 .send{
-	margin-top: 100px;
 	width: 100%;
 	height: 400px;
 	background: radial-gradient(1588.94px at 79.18% 5.3%, #8CCAF8 0%, #54A5E1 100%);
@@ -193,7 +248,7 @@ li p{
 }
 li img{
 	position: absolute;
-	top: -50px;
+	top: 20px;
 	left: 50px;	
 }
 .send h2{
@@ -220,9 +275,8 @@ li img{
 	right: 0;
 }
 .curly-path{
-	position: absolute;
-	left: 0;
-	bottom: 10px;
+	position: relative;
+	top: 100px;
 }
 .send p{
 	line-height: 18px;
@@ -278,11 +332,17 @@ li img{
 	padding-top: 20px;
 	height: 100%;
 }
-.is-selected {
-	color: 	#5AB3F0;
-}
 .flickity-page-dots .dot.is-selected {
-	background: #5AB3F0;
+	background: #22BEFF;
+	color: 	#FFFFFF;
+}
+.is-selected svg g{
+	fill: #fff !important;
+}
+li svg{
+	position: absolute;
+	bottom: 75px;
+	left: 55px;
 }
 .fixed-social-links{
 	position: fixed;
@@ -384,3 +444,54 @@ li img{
 	display: inline;
 	font-weight: bold;
 }
+.howDarvisWorks{
+	height: 753px;
+	width: 100%;
+	margin-top: 100px;
+	background-image: linear-gradient(-13deg, #FCFCFC 0%, #F1F1F1 100%);
+}
+.howDarvisWorks h2{
+	font-size: 32px;
+	color: #000000;
+	letter-spacing: 0;
+	padding: 40px 0;
+	text-align: center;
+}
+.howDarvisWorks img{
+	position: absolute;
+}
+.backgroundCircle{
+right: 0;
+}
+.videoTitles{
+	width: 183px;
+	/* margin-top: -50px; */
+	float: left;
+}
+.videos{
+	width: 824px;
+	float: right;
+}
+.buttons{
+	cursor: pointer;
+	text-decoration: none;
+	touch-action: none;
+	width: 100%;
+	margin: 5px 0;
+	text-align: left;
+	border-style: none;
+	border: transparent;
+	padding: 2px;
+	font-family: Raleway-Regular;
+}
+.activeVideo{
+	width: 220px;
+	color: white;
+	height: 37px;
+	background-image: url('../images/buttonBackground.svg');
+}
+.buttons:focus {
+	outline: none;
+	border: transparent;
+  }
+
