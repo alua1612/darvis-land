@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1px" height="18px" viewBox="0 0 1 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="96" y="27" width="1" height="18"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="DV-LandingPage-Copy" transform="translate(-1480.000000, -3189.000000)">
+            <g id="Скачать-Футер" transform="translate(1384.000000, 3162.000000)">
+                <g id="Rectangle-13">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="96.5" y="27.5" width="1" height="17"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

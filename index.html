@@ -2,7 +2,8 @@
 <html lang="ru">
 <head>
 	<title>DAR Vis</title>
-	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+	<!-- <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/> -->
+	<meta name="viewport" content="width=1440, initial-scale=1.0"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="scripts/jquery-3.2.1.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -20,15 +21,14 @@
 <body>
 	<div class="fixed-social-links">
 		<a href="https://facebook.com/darvis.kz"><div class="links link-1"><img src="images/fb.svg"></div></a>
+		<!-- <a href=""><div class="links link-3"><img src="images/inst.svg"></div></a> -->
 		<a href="https://vk.com/darviskz"><div class="links link-3"><img src="images/vk.svg"></div></a>
-		<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru"><div class="links link-4"><i class="fa fa-android fa-lg fixed-icons" aria-hidden="true"></i></div></a>
-		<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8"><div class="links link-5"><i class="fa fa-apple fa-lg fixed-icons" aria-hidden="true"></i></div></a>
 	</div>
 	<div class="block-1">
 		<img id="rectangle" src="images/rectangle.png" alt="rectangle"/>
 		<img class="darvis-logo_background" src="images/darvis-logo_background.svg"/>
 		<div class="container">
-			<img class="logo" src="images/GroupCopy3.svg"/>
+			<img class="logo" src="images/GroupCopy3.png"/>
 			<img class="phone-main" src="images/phone.png"/>
 			<div class="text-1">
 				<p class="text-1_title">Возможности без границ</p>
@@ -39,7 +39,7 @@
 						<span>#Кошелек</span>
 					<span>#Общение</span>	
 					<span>#Оплата услуг</span>
-					<span>#Заказ еды</span>
+					<span>#Общий Котел</span>
 					<span>#Друзья</span>
 				</div>
 			</div> 
@@ -163,33 +163,31 @@
 		</div>
 		<div class="send">
 			<img class="oval-footer" src="images/oval-footer.png">
-			<img id="curlyPath" src="images/curly.png">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-xs-12">
+					<div class="col-md-5 col-xs-12">
 						<h2 class="footer-text">Мы всегда на связи</h2><br>
 						<p>У Вас возник вопрос? Появился комментарий? Может в глубине Вашей души спит критик?</p><br>
 						<p>Оставьте нам сообщение.</p>
 						<p>Ответ последует обязательно	</p>
 					</div>
-					<div class="col-md-2"></div>
-					<div class="col-md-6 forms col-xs-12">
+					<div class="col-md-7 forms col-xs-12">
 						<form>
-						<div class="form-group row">
-						  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12">Имя*</label>
-						  <div class="col-md-9	 col-xs-12">
+						<div class="form-group nameDiv">
+						  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12 nameDiv">Имя*</label>
+						  <div class="nameDiv col-xs-12">
 						    <input class="form-control" type="text" id="name" size="64" required />
 						  </div>
 						 </div>
-						 <div class="form-group row">
-						  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12">E-mail*</label>
-							  <div class="col-md-9 col-xs-12">
-							    <input class="form-control" type="email" id="email" name="email" required />
+						 <div class="form-group emailDiv">
+						  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12 nameDiv">E-mail*</label>
+							  <div class="col-xs-12">
+							    <input class="form-control " type="email" id="email" name="email" required />
 							  </div>
 						  </div>
-						  <div class="form-group row">
-							  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12">Телефон</label>
-							  <div class="col-md-9 col-xs-12">
+						  <div class="form-group telDiv">
+							  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12 nameDiv">Телефон</label>
+							  <div class=" col-xs-12">
 							    <input class="form-control" type="tel" id="phone" minlength="11" maxlength="12" 
 							    pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
 							    oninvalid="this.setCustomValidity('Введите номер телефона в формате 8хххххххххх или +7хххххххххх')"
@@ -197,9 +195,9 @@
 							  </div>
 						  </div>
 						  <br>
-						 <div class="form-group row">
-							  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12">Сообщение*</label>
-							  <div class="col-md-9 col-xs-12">
+						 <div class="form-group smsDiv">
+							  <label for="example-text-input" class="col-md-3 col-form-label col-xs-12 nameDiv">Сообщение*</label>
+							  <div class=" col-xs-12">
 							    <input class="form-control" type="text" id="content" required />
 							  </div>
 						</div>
@@ -212,41 +210,38 @@
 		</div>
 		<div class="footer">
 			<br>
-			<br>
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row footer-row">
-					<div class="col-md-2 col-xs-12 footer-icons">
-						<div class="footer-year">
-							<a href="https://facebook.com/darvis.kz"><i class="fa fa-facebook fa-lg icon-social" aria-hidden="true"></i></a>
-							<a href="https://vk.com/darviskz"><i class="fa fa-vk fa-lg icon-social" aria-hidden="true"></i></a>
-						</div>						
-					</div>
-					<div class="col-md-2"></div>
-					<div class="col-md-2 footer-address col-xs-12">
+					<div class="col-md-4 footer-address col-xs-12">
 						<p>ул. Тажибаевой 155, Алматы, Казахстан</p>
 						<p>Call-центр  2727</p>
+						<p>2017 © DAR Vis</p>
 					</div>
+					<!-- <div class="col-md-1 "></div> -->
 					<div class="col-md-2 col-xs-12">
-						<div class="footer-address">
-							<p>DAR Vis для</p>
-							<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru">
-								<div class="android">
-									<img class="icons" src="images/android-logo.svg"> 
-									<p>Android</p>						
-								</div>
-							</a>
-							<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8">
-								<div class="apple">
-									<img class="icons" src="images/apple-logo.svg">
-									<p>iOS</p>
-								</div>
-							</a>
+							<div class="footer-year">
+								<a href="https://facebook.com/darvis.kz"><i class="fa fa-facebook fa-lg icon-social" aria-hidden="true"></i></a>
+								<a href="https://vk.com/darviskz"><i class="fa fa-vk fa-lg icon-social" aria-hidden="true"></i></a>
+							</div>						
 						</div>
-					</div>
-					<div class="col-md-2 col-xs-12">
-						<p class="footer-year">2017 © DAR Vis</p>	
-					</div>
-					<div class="col-md-2"></div>
+					<div class="col-md-3"></div>
+					<div class="col-md-3 col-xs-12">
+							<div class="footer-address">
+								<p>DAR Vis для</p>
+								<a href="https://play.google.com/store/apps/details?id=kz.dar.vis&hl=ru">
+									<div class="footer-android">
+										<img class="icons" src="images/android-logo.svg"> 
+										<p>Android</p>						
+									</div>
+								</a>
+								<a href="https://itunes.apple.com/us/app/dar-vis-%D0%BC%D0%B5%D1%81%D1%81%D0%B5%D0%BD%D0%B4%D0%B6%D0%B5%D1%80/id1239051751?ls=1&mt=8">
+									<div class="footer-apple">
+										<img class="icons" src="images/apple-logo.svg">
+										<p>iOS</p>
+									</div>
+								</a>
+							</div>
+						</div>
 				</div>
 			</div>
 		</div>

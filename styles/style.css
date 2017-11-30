@@ -10,8 +10,7 @@ button{
 	
 }
 .logo{
-	width: 194.5px;
-	height: 62.25px;
+	/* width: 194.5px; */
 	top: 35px;
 	left: -70px;
 	position: absolute;
@@ -124,6 +123,9 @@ button{
 	border-radius: 10px;
 	margin-top: 10px;
 }
+.android img, .apple img{
+	padding-left: 20px;
+}
 .apple{
 	float: right;	
 	font-size: 18px;
@@ -136,8 +138,8 @@ button{
 }
 .android p, .apple p{
 	float: left;
-	margin-top: 10px;
-	margin-left: 8px;
+	margin-top: 12px;
+	margin-left: 7px;
 }
 .about{
 	text-align: center;
@@ -239,8 +241,8 @@ li p{
 }
 .send{
 	width: 100%;
-	height: 400px;
-	background: radial-gradient(1588.94px at 79.18% 5.3%, #8CCAF8 0%, #54A5E1 100%);
+	height: 295px;
+	background-image: radial-gradient(101% 99%, #1DCAFF 0%, #2BABFF 100%);
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
 }
 .flickity-slider{
@@ -259,9 +261,9 @@ li img{
 .send h5{
 	position: absolute;
 	color: white;
-	left: 30%;
+	left: 55%;
 	visibility: hidden;
-	padding-top: 15px;
+	margin-top: -35px;
 }
 .footer-text{
 	padding-top: 30px;
@@ -294,22 +296,41 @@ li img{
 	border-radius: 25px !important;
 	width: 147px;
 	height: 45px;
-	margin: auto;
+	margin-right: 480px;
+	margin-top: 10px;
 	line-height: normal;
 	font-size: 14px;
 	text-align: center;
-	color: #5AB3F0;
+	color: rgb(70, 130, 170);
 }
 .footer{
-	height: 150px;
+	height: 131px;
 	width: 100%;
 	background: #414B4D;
 }
 .forms input{
-	border-radius: 8px;
-	background: #C6E8FF;
+	border-radius: 35px;
+	background: #fff;
 	mix-blend-mode: normal;
-	width: 80%;
+	width: 272px;
+}
+.emailDiv input{
+	/* margin-righ: 50px; */
+	padding-right: 20px;
+}
+.nameDiv{
+	float: left;
+	margin-right: -10px;
+}
+.telDiv{
+	float: left;
+	margin-top: -18px;
+	margin-right: -10px;
+}
+.smsDiv{
+	margin-top: -42px;
+	margin-right: 60px;
+	float: right;
 }
 .icon-social{
 	color: white;
@@ -323,13 +344,33 @@ li img{
 	line-height: 15px;
 	font-size: 14px;
 	color: #DDE8EF;
+	padding-left: 5px;
 }
 .footer-year{
 	float: right;
-	padding-top: 40px;
+}
+.footer-android{
+float: left;
+text-align: center;
+padding-right: 20px;
+}
+.footer-android img, .footer-apple img{
+	margin-top: -5px;
+}
+.footer-apple{
+	margin-left: 70px;
+	text-align: center;
+}
+.footer-android p, .footer-apple p{
+	float: left;
+	margin-left: 3px;
+	padding-top: 5px;
+}
+.footer-android p{
+	padding-right: 20px;
+	border-right: 2px solid #979797;
 }
 .footer-address{
-	padding-top: 20px;
 	height: 100%;
 }
 .flickity-page-dots .dot.is-selected {
@@ -345,7 +386,7 @@ li svg{
 	left: 55px;
 }
 .fixed-social-links{
-	position: fixed;
+	/* position: fixed; */
 }
 .links{
 	position: absolute;
@@ -354,16 +395,13 @@ li svg{
 	left: 1578px;
 }
 .link-1{	
-	top: 125px;		
-	padding: 3px 12px;	
+	top: 35px;				
 }
 .link-3{
-	top: 165px;
-	padding: 3px 6px;
+	top: 75px;	
 }
 .link-4{
-	top: 205px;
-	padding: 4px 8px;
+	top: 115px;	
 }
 .link-5{
 	top: 245px;
@@ -377,7 +415,7 @@ li svg{
 }
 .col-form-label{
 	padding-right: 8px;
-	text-align: right;
+	text-align: left;
 }
 .success{
 	width: 100%;
@@ -445,7 +483,7 @@ li svg{
 	font-weight: bold;
 }
 .howDarvisWorks{
-	height: 753px;
+	height: 793px;
 	width: 100%;
 	margin-top: 100px;
 	background-image: linear-gradient(-13deg, #FCFCFC 0%, #F1F1F1 100%);
@@ -482,6 +520,7 @@ right: 0;
 	border-style: none;
 	border: transparent;
 	padding: 2px;
+	padding-top: 7px;
 	font-family: Raleway-Regular;
 }
 .activeVideo{

@@ -1,12 +1,17 @@
-<svg width="9" height="20" viewBox="0 0 9 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>Fill 3</title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-2038 -403)">
-<g id="Fill 3">
-<use xlink:href="#path0_fill" transform="translate(2038 403)" fill="#FFFFFF"/>
-</g>
-</g>
-<defs>
-<path id="path0_fill" fill-rule="evenodd" d="M 8.64886 10.0064L 5.9357 10.0064L 5.9357 20L 1.91299 20L 1.91299 10.0064L 0 10.0064L 0 6.4761L 1.91299 6.4761L 1.91299 4.19178C 1.91299 2.55815 2.66422 0 5.97133 0L 8.95058 0.0132496L 8.95058 3.43949L 6.78861 3.43949C 6.43414 3.43949 5.9357 3.62302 5.9357 4.40181L 5.9357 6.47954L 9 6.47954L 8.64886 10.0064Z"/>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DV-LandingPage-Copy" transform="translate(-1560.000000, -46.000000)">
+            <g id="Group-3" transform="translate(1560.000000, 46.000000)">
+                <g id="Group-5">
+                    <rect id="Rectangle-3" fill="#5B89A8" opacity="0.25" x="0" y="0" width="35" height="35" rx="17.5"></rect>
+                    <path d="M21.648857,18.0063794 L18.9356951,18.0063794 L18.9356951,28 L14.912993,28 L14.912993,18.0063794 L13,18.0063794 L13,14.4761017 L14.912993,14.4761017 L14.912993,12.1917754 C14.912993,10.5581509 15.6642205,8 18.971332,8 L21.9505834,8.01324958 L21.9505834,11.4394936 L19.7886067,11.4394936 C19.4341376,11.4394936 18.9356951,11.6230248 18.9356951,12.4018059 L18.9356951,14.4795368 L22,14.4795368 L21.648857,18.0063794" id="Fill-3" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
