@@ -4,7 +4,8 @@ body{ font-family: Roboto; font-style: normal; font-weight: normal; }
 	height: 785px;
 	/* background: radial-gradient(1588.94px at 79.18% 5.3%, #8CCAF8 0%, #54A5E1 100%); */
 	/* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5); */
-	background-image: url('../images/Mask.png');	
+	/* background-image: url('../images/Mask.png');	 */
+	background: radial-gradient(120% 82%, #19D6FF 0%, #2AAAFF 96%);
 }
 button{
 	
