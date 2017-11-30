@@ -128,3 +128,22 @@
 		left: 1900px;
 	}
 }
+@media  (max-width: 1440px){
+	.smoke{
+		position: absolute;
+		left: 35%;
+		top: 85px;
+		width: 60%;
+	}
+	.stickers{
+		position: relative;
+		left: 35%;
+		top: 0px;
+		width: 65%;
+	}	
+	.phone-main{
+		width: 300px;
+		top: 128.75px;
+		left: 80px;
+	}
+}
