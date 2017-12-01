@@ -72,7 +72,7 @@ button{
 .smoke{
 	position: absolute;
 	left: 28%;
-	top: 115px;
+	top: 155px;
 	width: 61%;
 }
 .stickers{
@@ -390,6 +390,7 @@ li svg{
 	/* position: fixed; */
 }
 .links{
+	cursor: pointer;
 	position: absolute;
 	background: #B8DDF9;
 	border-radius: 100px;
