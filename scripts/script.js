@@ -66,9 +66,9 @@ $(document).ready( function() {
 	  
 	$('.carousel').on( 'select.flickity', listener );
 
-	// $("li p").on('click', function(){
-	// 	flkty.select( $('.carousel').selectedIndex, true, true );
-	// })
+	$("li").on('click', function(){
+		flkty.select($( this ).index());
+	})
 
 	$('.flickity-page-dots').append('<hr class="dotsLine">');
 	$('.flickity-page-dots').append('<img src='+triangleBottom.image+' class="dotTriangleBot"/>');
