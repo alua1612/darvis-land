@@ -68,7 +68,6 @@
 	.footer-icons{ margin-top: -40px; }
 	.img-5{width: 85%; left: 10px; }
 	.send h5{ position: relative; left: 0; font-size: 0.95rem; bottom: 20px; visibility: hidden;}
-	
 }
 @media(min-width: 358px) and (max-width: 426px){
 	.link-1, .link-3, .link-4, .link-5{ left: 338px; }

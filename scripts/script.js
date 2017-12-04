@@ -1,6 +1,7 @@
 $(document).ready( function() {
-	$('.carousel').flickity({
-	  // options
+	var elem = document.querySelector('.carousel');
+	
+	var flkty = new Flickity( elem, {
 	  cellAlign: 'left',
 	  contain: true,
 	  freeScroll: true,
@@ -17,7 +18,8 @@ $(document).ready( function() {
 
 	var obj3 = {};
 	obj3.image = "images/group.svg";
-	obj3.title = 'Заказ еды и цветов'
+	obj3.title = 'Заказ еды и цветов';
+	
 	var obj4 = {};
 	obj4.image = "images/shape1.svg";
 	obj4.title = 'Кнопки - в прошлом';
@@ -26,7 +28,50 @@ $(document).ready( function() {
 	obj5.image = "images/group1.svg";
 	obj5.title = 'Лучший помощник';
 
+	var triangleImg = {};
+	triangleImg.image = 'images/triangle.svg';
+
+	var triangleBottom = {};
+	triangleBottom.image = 'images/triangle_bottom.svg';
+
 	var icons = [ obj1, obj2, obj3, obj4, obj5 	];
+
+	function listener() {
+		if (flkty.selectedIndex == 0){
+			$('.flickity-page-dots img').removeClass();
+			$('.flickity-page-dots img').addClass('dotTriangleBot');
+			$('.flickity-page-dots img').addClass('moveTo0');
+		}
+		else if (flkty.selectedIndex == 1){
+			$('.flickity-page-dots img').removeClass();
+			$('.flickity-page-dots img').addClass('dotTriangleBot');
+			$('.flickity-page-dots img').addClass('moveTo1');
+		}
+		else if (flkty.selectedIndex == 2){
+			$('.flickity-page-dots img').removeClass();
+			$('.flickity-page-dots img').addClass('dotTriangleBot');
+			$('.flickity-page-dots img').addClass('moveTo2');
+		}
+		else if (flkty.selectedIndex == 3){
+			$('.flickity-page-dots img').removeClass();
+			$('.flickity-page-dots img').addClass('dotTriangleBot');
+			$('.flickity-page-dots img').addClass('moveTo3');
+		}
+		else if (flkty.selectedIndex == 4){
+			$('.flickity-page-dots img').removeClass();
+			$('.flickity-page-dots img').addClass('dotTriangleBot');
+			$('.flickity-page-dots img').addClass('moveTo4');
+		}
+	  }
+	  
+	$('.carousel').on( 'select.flickity', listener );
+
+	// $("li p").on('click', function(){
+	// 	flkty.select( $('.carousel').selectedIndex, true, true );
+	// })
+
+	$('.flickity-page-dots').append('<hr class="dotsLine">');
+	$('.flickity-page-dots').append('<img src='+triangleBottom.image+' class="dotTriangleBot"/>');
 
 	$( "li" ).each(function (index, item) {
 		$(item).append('<p> ' + icons[index].title + '</p>')
@@ -40,9 +85,16 @@ $(document).ready( function() {
 				$(this).append(data);
 			} 
 		});
+		if(index==2){
+			$(item).attr('id', 'orderSvg');
+		}
+		else {
+			$(item).attr('id', 'anotherSvg');
+		}
 	});	
 
-	var titles = ['Регистрация', 'Создание пин-кода', 'Смена пин-кода', 'Привязка карточки', 'Кэшин', 'Кэшаут', 'История транзакций', 'Что умеет делать бот', 'Перевод через бота', 'Перевод через чат', 'Сходим', 'Погода', 'Энциклопедия', 'Переводчик', 'Платежи', 'Сбор денег', 'Помощь'];
+	var titles = ['Регистрация', 'Создание пин-кода', 'Смена пин-кода', 'Привязка карточки', 'Кэшин', 'Кэшаут', 'История транзакций', 'Что умеет делать бот', 
+				'Перевод через бота', 'Перевод через чат', 'Сходим', 'Погода', 'Энциклопедия', 'Переводчик', 'Платежи', 'Сбор денег', 'Помощь'];
 	var videos = ["https://www.youtube.com/embed/QpQxMogRkSQ", "https://youtube.com/embed/P7XHdqN0Ndc", "https://youtube.com/embed/ooFOh8ez7WE", 
 				"https://www.youtube.com/embed/ZDZgD9IbsEs", "https://www.youtube.com/embed/S23GR7wmINY", "https://www.youtube.com/embed/jAQuxjJGXwQ",
 				"https://www.youtube.com/embed/IwleoMIAS7s", "https://www.youtube.com/embed/4CxgrgLC8fg", "https://www.youtube.com/embed/TROEriL5koI", 
@@ -60,7 +112,6 @@ $(document).ready( function() {
 		}
 		$input.appendTo($(".videoTitles"));
 	}
-	
 	
 	$(".buttons").on('click', function (e) {
 		for (var i=0; i<17; i++){
@@ -116,7 +167,3 @@ $(document).ready( function() {
 		setTimeout(hide,3000);
 	});
 });
-
-function newFunction() {
-	return ')">';
-}

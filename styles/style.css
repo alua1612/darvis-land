@@ -113,6 +113,10 @@ button{
 .icons{
 	float: left;
 	padding: 5px;
+	padding-top: 8px;
+}
+.icon-droid{
+	padding-top: 11px;
 }
 .android{
 	float: left;
@@ -139,7 +143,7 @@ button{
 }
 .android p, .apple p{
 	float: left;
-	margin-top: 12px;
+	margin-top: 14px;
 	margin-left: 7px;
 }
 .about{
@@ -158,6 +162,7 @@ button{
   height: 782px;
   background: #FFF;
   border-radius: 5px;
+  padding-top: 30px;
 }
 .img-carousel{
 	width: 40%;
@@ -218,7 +223,7 @@ li p{
 }
 .flickity-page-dots{
 	top: 0;	
-	height: 100px;
+	height: 120px;
 	background-color: white;	
 }
 .container .carousel{
@@ -232,6 +237,7 @@ li p{
 	margin-left: 0;
 	margin-top: -30px;
 	margin-right: 15px;
+	margin-bottom: 20px;
 	position: relative;
 	background-color: transparent;
 	opacity: 1;
@@ -381,10 +387,40 @@ padding-right: 20px;
 .is-selected svg g{
 	fill: #fff !important;
 }
-li svg{
+svg g{
+	fill: #727272 !important;
+}
+#anotherSvg svg{
 	position: absolute;
 	bottom: 75px;
-	left: 55px;
+	left: 52px;
+}
+#orderSvg svg{
+	position: absolute;
+	bottom: 75px;
+	left: 40px;
+}
+.dotsLine{
+	/* margin: 36px 0px; */
+	width: 1000px;
+	opacity: 0.5;
+	border: 0.5px solid #979797;
+}
+.dotTriangle{
+	position: absolute;
+	z-index: -1;
+	top: 147px;
+	left: 35px;
+	visibility: visible;
+}
+.dotTriangleBot{
+	position: absolute;
+	z-index: 0;
+	left: 235px;
+	bottom: -17px;
+}
+.moveArrow{
+	transform: translateX(150px);
 }
 .fixed-social-links{
 	/* position: fixed; */
@@ -535,4 +571,26 @@ right: 0;
 	outline: none;
 	border: transparent;
   }
+
+  .moveTo0{
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-webkit-transform: translateX(0px);
+}
+.moveTo1{
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-webkit-transform: translateX(145px);
+}
+.moveTo2{
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-webkit-transform: translateX(290px);
+}
+.moveTo3{
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-webkit-transform: translateX(435px);
+}
+.moveTo4{
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-webkit-transform: translateX(580px);
+}
+
 
